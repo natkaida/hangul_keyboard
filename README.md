@@ -44,3 +44,5 @@ Hangul Keyboard - экранная корейская клавиатура со 
 
 - Spell checking works **only for words present in the loaded dictionary**, but you can always upload a **very large dictionary**.
 - **Spell suggestions** are not yet implemented — but they may be added in future versions.
+
+
