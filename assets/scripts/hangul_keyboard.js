@@ -42,8 +42,7 @@ function setCaretToEnd(el) {
 function clearHighlights() {
   if (!isChecked) return;
   const plainText = output.innerText || "";
-  output.innerHTML = "";
-  output.appendChild(document.createTextNode(plainText));
+  output.textContent = plainText; 
   buffer = Array.from(plainText);
   isChecked = false;
   setCaretToEnd(output);
