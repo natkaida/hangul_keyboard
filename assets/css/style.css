@@ -3,7 +3,6 @@ body {
   margin: 20px;
 }
 
-/* --- Светлая тема (по умолчанию) --- */
 body.light {
   background: #f6f8fb;
   color: #1a1a1a;
@@ -31,7 +30,6 @@ body.light button.key.active {
   background: #dff0ff;
 }
 
-/* Светлая тема для toggle switch */
 body.light .slider {
   background-color: #ccc;
 }
@@ -40,7 +38,6 @@ body.light input:checked + .slider {
   background-color: #2196F3;
 }
 
-/* --- Тёмная тема --- */
 body.dark {
   background: #121212;
   color: #e0e0e0;
@@ -68,7 +65,6 @@ body.dark button.key.active {
   background: #3a76f0;
 }
 
-/* Тёмная тема для toggle switch */
 body.dark .slider {
   background-color: #555;
 }
@@ -97,14 +93,12 @@ h2 { margin:0; }
   box-sizing: border-box;
 }
 
-/* левая колонка (файл) */
 .left-panel {
   width: 25%;
   min-width: 220px;
   box-sizing: border-box;
 }
 
-/* правая колонка (текст) */
 .right-panel {
   width: 75%;
   box-sizing: border-box;
@@ -162,7 +156,6 @@ button.key.active { transform:translateY(2px); box-shadow:none; }
 
 button.wide { width:110px; }
 
-/* ===== Toggle switch ===== */
 .theme-switch {
   position: relative;
   display: inline-block;

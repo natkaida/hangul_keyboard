@@ -17,10 +17,9 @@
   </div>
 </div>
 
-
 <div class="main-content">
   <div class="left-panel">
-    <div id="fileDisplay">Содержимое выбранного файла появится здесь</div>
+    <div id="fileDisplay">Содержимое выбранного словаря появится здесь</div>
 <input type="file" id="fileInput" accept=".txt">
   </div>
 
@@ -38,7 +37,6 @@
 <script>
 const themeToggle = document.getElementById("themeToggle");
 
-// Функция установки темы
 function setTheme(theme) {
   if (theme === "dark") {
     document.body.classList.add("dark");
@@ -49,33 +47,22 @@ function setTheme(theme) {
     document.body.classList.remove("dark");
     themeToggle.checked = false; // ползунок влево
   }
-
-  // сохраняем выбор пользователя
   localStorage.setItem("theme", theme);
 }
 
-// === Загружаем тему при старте ===
 document.addEventListener("DOMContentLoaded", () => {
   const savedTheme = localStorage.getItem("theme");
 
   if (savedTheme) {
-    // если тема уже сохранена — применяем её
     setTheme(savedTheme);
   } else {
-    // если нет — используем светлую по умолчанию
     setTheme("light");
   }
 
-  // обработка переключателя
   themeToggle.addEventListener("change", () => {
     setTheme(themeToggle.checked ? "dark" : "light");
   });
 });
-
-
-
-
-
 </script>
 </body>
 </html>
