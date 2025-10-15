@@ -13,11 +13,12 @@ Hangul Keyboard - экранная корейская клавиатура со 
 - Загрузите файл .txt со списком корейских слов (разделeнных " - ", как в [words.txt](https://github.com/natkaida/hangul_keyboard/blob/main/words.txt)).
 - Набирайте текст с помощью экранной клавиатуры или физической клавиатуры.
 - Нажмите кнопку "Проверить правописание", чтобы выделить правильные и неправильные слова.
-
+<img width="1239" height="646" alt="Screenshot_2025-10-15_22-30-14" src="https://github.com/user-attachments/assets/bb803d50-56dd-4629-af24-858f01e22f56" />
 
 ### Ограничения
 
-- Проверка правописания работает только по словам, которые есть в загруженном словаре. Но ничто не мешает вам загрузить ОЧЕНЬ большой словарь.
+- Проверка правописания работает только по словам, которые есть в загруженном словаре. Но ничто не мешает вам загрузить ОЧЕНЬ большой словарь. Здесь, например, слово 사람 написано правильно, но в словаре его нет, поэтому оно выделено красным:
+  <img width="1243" height="653" alt="Screenshot_2025-10-15_22-32-04" src="https://github.com/user-attachments/assets/c1914fb9-d201-4ef0-9f3e-3a4bd07dc950" />
 
 - Подсказки по правописанию пока не реализованы, но в будущем - наверняка будут.
 
@@ -43,6 +44,7 @@ Hangul Keyboard - экранная корейская клавиатура со 
 ### Limitations
 
 - Spell checking works **only for words present in the loaded dictionary**, but you can always upload a **very large dictionary**.
+  <img width="1239" height="649" alt="Screenshot_2025-10-15_22-28-05" src="https://github.com/user-attachments/assets/43ea95f9-b319-4736-a406-ae85de68f166" />
 - **Spell suggestions** are not yet implemented — but they may be added in future versions.
 
 
