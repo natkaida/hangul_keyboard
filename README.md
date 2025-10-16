@@ -8,6 +8,8 @@ Hangul Keyboard - экранная корейская клавиатура со 
 - Работает офлайн, не требуя подключения к интернету.
 - Есть темная и светлая темы.
 
+<img width="2500" height="650" alt="dark_light" src="https://github.com/user-attachments/assets/16c0168b-a19f-46ce-b6eb-7f817e6982e4" />
+
 ### Как использовать
 
 - Загрузите файл .txt со списком корейских слов (разделeнных " - ", как в [words.txt](https://github.com/natkaida/hangul_keyboard/blob/main/words.txt)).
